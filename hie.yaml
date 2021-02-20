@@ -1,0 +1,13 @@
+cradle:
+  multi:
+    - path: ./
+      config:
+        cradle:
+          stack:
+            stackYaml: stack.yaml
+    - path: ./Setup.hs # path to associate a cradle with
+#           ^--------- Path to load
+      config:
+        cradle:
+          none: # The cradle associated with the path "./Setup.hs" is a "none"-cradle
+#         ^------ None Cradle
