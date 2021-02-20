@@ -1,0 +1,11 @@
+{
+    "haskell.hlintOn": true,
+    "haskell.trace.server": "messages",
+    "haskell.hlint.run":"onType",
+    "[haskell]": {
+        "editor.fontFamily": "Consolas, 'Courier New', monospace",
+        "editor.colorDecorators": true
+    },
+    "editor.suggest.showTypeParameters": true,
+    "workbench.colorTheme": "Monokai Dimmed"
+}
