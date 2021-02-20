@@ -1,0 +1,12 @@
+{
+	"name": "Haskell Dev",
+	"dockerFile": "Dockerfile",
+	"appPort": 9000,
+	"extensions": [
+		"haskell.haskell",
+		"phoityne.phoityne-vscode",
+		"hoovercj.haskell-linter",
+		"justusadam.language-haskell"
+	],
+	"runArgs": ["--env-file", ".devcontainer/devcontainer.env"]
+}
